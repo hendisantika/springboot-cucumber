@@ -5,5 +5,5 @@ Feature: We can retrieve person data
     Then I validate all persons
 
   Scenario: We can retrieve specific person
-    When I request person by nickname "josdem"
+    When I request person by nickname "naruto"
     Then I validate person data
