@@ -1,4 +1,4 @@
-package com.example.springbootcucumber;
+package com.hendisantika.springbootcucumber;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
