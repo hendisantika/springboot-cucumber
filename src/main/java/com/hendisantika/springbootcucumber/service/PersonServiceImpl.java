@@ -26,7 +26,8 @@ public class PersonServiceImpl implements PersonService {
 
     @PostConstruct
     public void setup() {
-        Stream.of(new Person("naruto", "uzumaki.naruto@konohagakure.com"),
+        Stream.of(
+                new Person("naruto", "uzumaki.naruto@konohagakure.com"),
                 new Person("sasuke", "uchiha.sasuke@konohagakure.com"),
                 new Person("sakura", "sakura.haruno@konohagakure.com"),
                 new Person("kakashi", "hatake.kakashi@konohagakure.com"),
