@@ -32,7 +32,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	implementation('org.apache.commons:commons-lang3:3.8.1')
+	implementation('org.apache.commons:commons-lang3:3.17.0')
 	testImplementation("com.aventstack:extentreports:$extentReportsVersion")
 	testImplementation("com.vimalselvam:cucumber-extentsreport:$extentReportsVersion")
 	testImplementation("info.cukes:cucumber-java:$cucumberVersion")
