@@ -5,7 +5,7 @@ plugins {
 }
 
 ext {
-	junitJupiterVersion = '5.4.2'
+	junitJupiterVersion = '5.11.1'
 	cucumberVersion = '1.2.6'
 	extentReportsVersion = '3.1.1'
 }
